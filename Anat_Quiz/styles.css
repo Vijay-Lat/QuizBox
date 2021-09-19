@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: green;
+  color: #fff;
+  font-family: Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#game {
+  display: flex;
+}
+.genre-column {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+h1 {
+  color: darkturquoise;
+  font-family: "Courier New", Courier, monospace;
+}
+.card {
+  width: 200px;
+  height: 120px;
+  border-radius: 20px;
+  background-color: blue;
+  text-align: center;
+  padding: 5px;
+  margin: 10px;
+  border: solid yellow 5px;
+}
+.correct-answer {
+  background-color: #f18760;
+}
+.wrong-answer {
+  background-color: red;
+}
+
+.falseButton {
+  background-color: red;
+  border-radius: 10px;
+  height: 35px;
+  width: 65px;
+  color: white;
+  margin: 2px;
+}
+.trueButton {
+  background-color: greenyellow;
+  border-radius: 10px;
+  height: 35px;
+  width: 65px;
+  color: black;
+  margin: 2px;
+}
